@@ -1,6 +1,6 @@
 .. -*- mode: rst -*-
 
- |Travis|_ |PythonVersion|_ |PyPI version fury.io|
+|Travis|_ |PythonVersion|_ |PyPI version fury.io|
 
 .. |Travis| image:: https://travis-ci.com/ramonVDAKKER/mortgage_calculus.svg
    :target: https://travis-ci.com/ramonVDAKKER/mortgage_calculus/mortgage_calculus
