@@ -1,6 +1,9 @@
 .. -*- mode: rst -*-
 
-[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+|PyPI version fury.io|
+
+.. |PyPI version fury.io| image:: https://badge.fury.io/py/ansicolortags.svg
+   :target: https://pypi.python.org/pypi/ansicolortags/
 
 .. |PythonMinVersion| replace:: 3.6
 .. |NumPyMinVersion| replace:: 1.13.3
