@@ -1,0 +1,23 @@
+repos:
+-   repo: https://github.com/ambv/black
+    rev: stable
+    hooks:
+    - id: black
+      language_version: Python3.8
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: 3.7.8
+    hooks:
+    -   id: flake8
+        types: [file, python]
+#        args: []
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v0.782
+    hooks:
+     -  id: mypy
+        files: mortgage_calculus/
