@@ -1,26 +1,19 @@
-version: 0.1
+version: 2
 jobs:
   build:
-    docker:
-      - image: circleci/python:3.8
+    executor: python/default
     steps:
       - checkout
-      - restore_cache:
-          key: deps1-{{ .Branch }}-{{ checksum "requirements.txt" }}
+      - python/install-packages:
+          pkg-manager: poetry
       - run:
           command: |
-            python3 -m venv venv
-            . venv/bin/activate
-            pip install -r requirements.txt
-      - save_cache:
-          key: deps1-{{ .Branch }}-{{ checksum "requirements.txt" }}
-          paths:
-            - "venv"
-      - run:
-          name: Running tests
-          command: |
-            . venv/bin/activate
-             python3 pytest mortgage_calculus
-      - store_artifacts:
-          path: test-reports/
-          destination: python_app
+            poetry run pytest --version
+          name: Test it
+orbs:
+  python: circleci/python@1.0.0
+version: 2.1
+workflows:
+  main:
+    jobs:
+      - build
