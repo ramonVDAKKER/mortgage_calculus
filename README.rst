@@ -13,8 +13,6 @@
 
 **mortgage_calculus** is a Python module for the (cashflow) analysis of mortgages.
 
-Website: https://github.com/ramonVDAKKER/mortgage_calculus
-
 Installation
 ------------
 
