@@ -1,0 +1,13 @@
+# Compiled python modules.
+*.pyc
+
+# Setuptools distribution folder.
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+.eggs/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.ipynb_checkpoints
+/.pytest_cache
