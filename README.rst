@@ -2,8 +2,8 @@
 
 |PyPI version fury.io|
 
-.. |PyPI version fury.io| image:: https://badge.fury.io/py/ansicolortags.svg
-   :target: https://pypi.python.org/pypi/ansicolortags/
+.. |PyPI version fury.io| image:: https://badge.fury.io/py/mortgage-calculus.svg
+   :target: https://pypi.python.org/pypi/mortgage-calculus/
 
 .. |PythonMinVersion| replace:: 3.6
 .. |NumPyMinVersion| replace:: 1.13.3
