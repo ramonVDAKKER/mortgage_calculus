@@ -1,6 +1,6 @@
 .. -*- mode: rst -*-
 
-|PyPI version fury.io|_|Travis|_|PythonVersion|
+|PyPI version fury.io|_ |Travis|_ |PythonVersion|
 
 .. |PyPI version fury.io| image:: https://badge.fury.io/py/mortgage-calculus.svg
    :target: https://pypi.python.org/pypi/mortgage-calculus/
