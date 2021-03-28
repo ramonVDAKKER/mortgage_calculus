@@ -1,11 +1,6 @@
 .. -*- mode: rst -*-
 
-|CircleCI|_  |PyPi|_ 
-
-
-.. |CircleCI| image:: https://circleci.com/gh/ramonVDAKKER/mortgage_calculus/main.svg?style=shield&circle-token=:circle-token
-.. _CircleCI: https://circleci.com/gh/ramonVDAKKER/mortgage_calculus
-
+[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
 .. |PythonMinVersion| replace:: 3.6
 .. |NumPyMinVersion| replace:: 1.13.3
