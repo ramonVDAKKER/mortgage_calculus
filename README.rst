@@ -33,33 +33,3 @@ User installation
 ~~~~~~~~~~~~~~~~~
 
     pip install mortgage_calculus
-
-Changelog
----------
-
-See the `changelog <https://scikit-learn.org/dev/whats_new.html>`__
-for a history of notable changes to scikit-learn.
-
-
-Source code
-~~~~~~~~~~~
-
-You can check the latest sources with the command::
-
-    git clone https://github.com/ramonVDAKKER/mortgage_calculus
-
-
-Testing
-~~~~~~~
-
-After installation, you can launch the test suite from outside the source
-directory (you will need to have ``pytest`` >= |PyTestMinVersion| installed)::
-
-    pytest mortgage_calculus
-
-
-Documentation
-~~~~~~~~~~~~~
-
-TO DO
-
