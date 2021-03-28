@@ -12,10 +12,10 @@
    :target: https://pypi.python.org/pypi/mortgage-calculus/
 
 .. |PythonMinVersion| replace:: 3.7
-.. |NumPyMinVersion| replace:: 1.13.3
-.. |PandasMinVersion| replace:: 0.25.0
-.. |PytestMinVersion| replace:: 5.0.1
-
+.. |NumPyMinVersion| replace:: 1.15.0
+.. |PandasMinVersion| replace:: 0.23.0
+.. |PytestMinVersion| replace:: 3.6.0
+.. |TypingMinVersion| replace:: 3.5.0
 
 **mortgage_calculus** is a Python module for the (cashflow) analysis of mortgages.
 
@@ -29,7 +29,9 @@ mortgage_calculus requires:
 
 - Python (>= |PythonMinVersion|)
 - NumPy (>= |NumPyMinVersion|)
-- Pandas (>= |PandasMinVersion|)
+- pandas (>= |PandasMinVersion|)
+- pytest (>= |PytestMinVersion|)
+- typing (>= |TypingMinVersion|)
 
 User installation
 ~~~~~~~~~~~~~~~~~
